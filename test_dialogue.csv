@@ -1,0 +1,63 @@
+ID,Actor,Dialogue,Trigger,Notes
+1,OPS,"Okay. That's as close as we can get you, Alice.",5 seconds after game starts,
+2,Alice,"Understood, Captain Space Mission Command Lady.",,
+3,OPS,"Yeah, because of the debris field, you see. This capsule, it's bigger than rocks. But you, Alice – you're smaller than rocks.",,Underline denotes cleverly timed doling out of background exposition.
+4,Alice,"I concur. I'm an engineer, you see.",,
+5,OPS,You're god damn right you are. That's why you'd know all about handles. Handles that lead to that exit hatch over there.,,Bold denotes tutorial dialogue.
+6,Alice,"Ha. You're telling me about handles? I'm a scientist – I'm basically made of handles. Why, if I wanted, I could use a handle to open up this hatch here.",Player reaches hatch,"Door ""handle"" here could be lever, cable rerouting, etc."
+7,OPS,"Proceed to the capsule exterior, Alice. Mind you keep a good grip on those... Well. I won't patronise.",Hatch is open,
+8,Alice,Huh. All those space rocks out there? Not a handle in sight.,Player is outside capsule,
+9,OPS,Not a problem. Prepare for Pre-Flight Check.,,
+10,Alice,Copy that.,,
+11,OPS,"Do a lil' jetpack around the capsule with your PPS. Up, down, forwards, backwards. These are some of the directions you could try flying in before you go to The Station, which is your objective, by the way.",,
+12,Alice,Got it. I'm heading to The Station now.,Player is [distance] towards The Station,"[Distance] being, enough towards The Station that the game can reasonably assume The Player is heading there"
+13,OPS,Should be pretty straightforward. Just try not to hit any of that debris. You got this. We'll be here to guide you through anything that might--,,
+14,Alice,"Control? Lost you, please repeat.",,
+15,Alice,Mission Control. Do you read me?,5 seconds after radio cutoff,
+16,Alice,(breathing),Player is halfway to The Station,
+17,Alice,(heavy breathing) Whoa.,Sunrise over Earth,Inspiring music
+18,OPS,"--bzzbzztvvvshkkkcome in. Alice, do you copy? Repeat. Do you copy?",Player is almost at The Station,
+19,Alice,"(heavy breathing) Copy that, Control. I hear you.",,
+20,OPS,"Phew. Lost you for a minute there. At least we know the transmitter on The Station is still operational. Presumably that Powered Entry Hatch, ahead of you, remains similarly operational.",,
+21,Alice,Powered Entry Hatch?,,
+22,OPS,"You know, that Powered Entry Hatch with the obvious lighting cues over there? You can't miss it. It's near some handles.",,
+23,Alice,"Oh, handles. I love those.",,
+24,OPS,"Nope. Power's out on that. We can only hope the spare batteries weren't taken out by the asteroid. The asteroid that caused all the damage and the rocks, you see.",Player attempts to open Powered Entry Hatch,
+25,Alice,"Got it. Flashing green LED on the front, right?",,
+26,OPS,"Correct. There should be a spare one on the other side of the module; designation ""BRAVO 7"".",,
+27,Alice,Needle in a haystack.,"Player looks out into debris field (or just moves away from the hatch, if easier)",
+28,OPS,Good luck.,,
+29,Alice,Found it!,Player grabs battery,Uplifting music
+30,OPS,"Great news, Alice. Now for some not-so-great news: you've got debris incoming.",,Music turns tense
+31,Alice,Do I have time to bring the battery back?,,
+32,OPS,"Yeah, if you attach it to your suit using that Space Carabiner on your [hip/wrist/menu]. You need to be inside The Station in the next five minutes.",,
+33,Alice,"Okay, I'm on the move.",Player attaches Space Carabiner,
+34,OPS,"Under four minutes, Alice. Use your PPS and those conveniently placed handles to move around quicker.",Player is 1/3 of the way back to the Powered Entry Hatch,
+35,Alice,(breathing),,
+36,OPS,Just a few minutes to get inside. Remove the expired battery in Battery Hole 7A.,Player is almost at the Powered Entry Hatch,Music tenser!
+37,Alice,Done!,Dead battery removed,
+38,OPS,Unhitch your Space Carabiner and install module BRAVO 7. Green LEDs facing outwards.,,
+39,Alice,Uh huh. Time to impact?,"Unhooked, new battery placed",
+40,OPS,Open the hatch now.,,
+41,OPS,Alice? Open the hatch. ,Player tries to open the hatch,
+42,Alice,It's not opening. It's still not powered! How much time do I have?,,"OPS is not telling you how much time you have left! I think this is cool because it's dramatic for the characters, plus it's kept vague from the player (because it's not a real timer)."
+43,OPS,Are the LEDs on the battery operational?,,
+44,Alice,Yes!,,
+45,OPS,(chatter off-mic),,
+46,Alice,Control? How much time left?,3 seconds pass,
+47,OPS,"(chatter off-mic, then:) The cables under the Battery Hole, do you see them?",,
+48,Alice,Yes.,,
+49,OPS,Take the red cable.,,
+50,Alice,Got it.,Player grabs the red cable,
+51,OPS,Put it in the blue socket.,,
+52,Alice,Done.,,
+53,OPS,Open the hatch now.,,
+54,Alice,No! It won't open!,Player tries to open the hatch,Music is FUCKED now. It's so drama.
+55,OPS,(chatter off-mic),,
+56,Alice,Control! It's not working!,,
+57,OPS,"(chatter off-mic, then:) Engineering suggests percussive maintainance.",,
+58,Alice,I don't...,,
+59,OPS,"Punch the battery, Alice! Now!",,
+60,Alice,Ah!,Player has punched the battery and the power has come online.,Music ends.
+61,OPS,Inside. Now.,,
+62,Alice,(heavy breathing),Player opens the hatch.,
